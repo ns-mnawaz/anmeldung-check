@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "beepbeep": "^1.3.0",
+    "node-cron": "^3.0.0",
+    "puppeteer": "^13.0.0"
+},
+"scripts": {
+    "start": "HEADLESS=true node app.js",
+    "dev": "node app.js"
+  }
+}
